@@ -12,7 +12,7 @@ class makeHit {
             "spys": 'http://spys.one/free-proxy-list/IN/'
         };
         this.proxySource = 'proxyNova'; // From where to fetch the list of rpoxies
-        this.urlSource = 'https://www.iplocation.net'; // Target URL to make hits on 
+        this.urlSource = 'https://bittorrent4all.com/'; // Target URL to make hits on 
     }
 
 makeHits(){
@@ -141,7 +141,7 @@ getProxies(){
             reject(e)
         }
 
-            await page.waitFor(2000)
+            await page.waitFor(200000)
 
             //click on the ad
             console.log(`Clicking the ad`)
@@ -199,7 +199,7 @@ screenGrab(proxy){
             reject(e)
         }
 
-            await page.waitFor(2000)
+            await page.waitFor(200000)
 
             //click on the ad
             console.log(`Clicking the ad`)
